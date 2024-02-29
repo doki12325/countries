@@ -5,6 +5,7 @@ import Store from "@utils/store";
 export const metadata = {
   title: "Countries",
   description: "Find information for any country!",
+  icons: { icon: "/favicon.png" },
 };
 
 export default function RootLayout({ children }) {
